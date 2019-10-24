@@ -1,0 +1,26 @@
+#planets {
+  font-family: 'Advent Pro', sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#planets th{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    background-color:inherit;
+    color: white;
+}
+
+#planets td, #planets th {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+#planets tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#earth tr:hover {
+  background-image: "images/galaxybg.jpg" ;
+}
