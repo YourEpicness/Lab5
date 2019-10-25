@@ -1,30 +1,36 @@
 body {
-	background-image:url("images/galaxy.jpg");
+  background-image: url("images/galaxy.jpg");
 }
+
 img {
-	height: 300px;
-	width: 300px;
-	margin: auto;
+  height: 300px;
+  width: 300px;
+  margin: auto;
 }
+
 #image-container {
-	width: 85%;
-	margin: auto;
-	padding-top: 1em;
+  width: 85%;
+  margin: auto;
+  padding-top: 1em;
 }
+
 #head {
-	color:white;
-	text-align: center;
-	font-size: 2.5em;
-	font-family: 'Advent Pro', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: 'Advent Pro', sans-serif;
 }
+
 #table-head {
-	height: 100px;
-	font-size: 1.2em;
-	font-weight: bold;
+  height: 100px;
+  font-size: 1.2em;
+  font-weight: bold;
 }
+
 #table-head th {
-	color: #3B85B3 !important;
+  color: #3B85B3 !important;
 }
+
 #planets {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
@@ -34,14 +40,15 @@ img {
   height: 350px;
 }
 
-#planets th{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    color: white;
+#planets th {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  color: white;
 }
 
-#planets td, #planets th {
+#planets td,
+#planets th {
   border: 3px solid #BF6BA9;
   padding: 0.5em;
   color: white;
@@ -49,16 +56,18 @@ img {
 
 #planets tr:nth-child(1) {
   background-color: #514EA6 !important;
-  background-image:url("images/asteroid.jpg");
+  background-image: url("images/asteroid.jpg");
 }
 
 #planets tr:nth-child(odd) {
   background-color: #514EA6;
 }
-.planet-title{
-	font-size: 1.2em;
-	font-weight: bold;
+
+.planet-title {
+  font-size: 1.2em;
+  font-weight: bold;
 }
+
 #planets tr:not(th):hover {
-  background-image:url("images/solarsystem.jpg");
+  background-image: url("images/solarsystem.jpg");
 }
