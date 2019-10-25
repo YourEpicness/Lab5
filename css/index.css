@@ -1,5 +1,5 @@
 body {
-  background-image: url("images/galaxy.jpg");
+  background-image: url("../images/galaxy.jpg");
 }
 
 img {
@@ -56,7 +56,7 @@ img {
 
 #planets tr:nth-child(1) {
   background-color: #514EA6 !important;
-  background-image: url("images/asteroid.jpg");
+  background-image: url("../images/asteroid.jpg");
 }
 
 #planets tr:nth-child(odd) {
@@ -69,5 +69,5 @@ img {
 }
 
 #planets tr:not(th):hover {
-  background-image: url("images/solarsystem.jpg");
+  background-image: url("../images/solarsystem.jpg");
 }
