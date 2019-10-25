@@ -1,26 +1,64 @@
+body {
+	background-image:url("images/galaxy.jpg");
+}
+img {
+	height: 300px;
+	width: 300px;
+	margin: auto;
+}
+#image-container {
+	width: 85%;
+	margin: auto;
+	padding-top: 1em;
+}
+#head {
+	color:white;
+	text-align: center;
+	font-size: 2.5em;
+	font-family: 'Advent Pro', sans-serif;
+}
+#table-head {
+	height: 100px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#table-head th {
+	color: #3B85B3 !important;
+}
 #planets {
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
-  width: 100%;
+  vertical-align: middle;
+  margin: auto;
+  width: 95%;
+  height: 350px;
 }
 
 #planets th{
     padding-top: 1em;
     padding-bottom: 1em;
     text-align: center;
-    background-color:inherit;
     color: white;
 }
 
 #planets td, #planets th {
-  border: 1px solid #ddd;
+  border: 3px solid #BF6BA9;
   padding: 0.5em;
+  color: white;
+}
+
+#planets tr:nth-child(1) {
+  background-color: #514EA6 !important;
+  background-image:url("images/asteroid.jpg");
 }
 
 #planets tr:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: #514EA6;
 }
-
-#earth tr:hover {
-  background-image: "images/galaxybg.jpg" ;
+.planet-title{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#planets tr:not(th):hover {
+  background-image:url("images/solarsystem.jpg");
 }
